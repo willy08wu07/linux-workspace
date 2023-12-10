@@ -2,6 +2,6 @@ version: '3.0'
 
 services:
   workspace:
-    image: ubuntu:22.04
+    build: workspace
     tty: true
     privileged: true
